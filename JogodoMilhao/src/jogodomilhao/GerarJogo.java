@@ -85,6 +85,7 @@ public class GerarJogo {
         System.out.println("\nPergunta " + (ind++) + ":");
         System.out.println(ppe.get(perguntaAtual).getEnunciado().toUpperCase());
         String resposta = teclado.nextLine();
+        // String resposta = ppe.get(perguntaAtual).getResposta();
 
         if (ppe.get(perguntaAtual).getResposta().equalsIgnoreCase(resposta)) {
             System.out.println("CERTA RESPOSTA!!\n");

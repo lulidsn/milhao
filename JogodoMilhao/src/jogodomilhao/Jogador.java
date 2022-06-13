@@ -15,6 +15,8 @@ public class Jogador {
         nome = c;
     }
 
+    
+
     public String getNome() {
         return nome;
     }
